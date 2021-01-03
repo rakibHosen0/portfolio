@@ -1,11 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
+.top-banner {
+  background-image: url("/img/top-banner.png");
+  background-repeat: no-repeat;
+}
 h1 {
   font-size: 50px;
+  padding-top: 40px;
 }
 .name-highlight {
   color: orange;
+}
+.half-width h3 {
+  margin-top: 30px;
+}
+.half-width p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .half-width {
   width: 40%;
@@ -13,7 +30,33 @@ h1 {
   margin-left: 5%;
   padding-left: 2%;
 }
-
 .half-width img {
   width: 100%;
+}
+section {
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(207, 188, 188), orange);
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.link-btn:hover {
+  box-shadow: 3px 3px 4px rgb(201, 172, 144);
+}
+
+.download-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(207, 188, 188), tomato);
+  background-color: tomato;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
 }
